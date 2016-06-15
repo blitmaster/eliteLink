@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "EliteTorrent Download Link Creator",
+	"description": "Doncs aixó, una extensió per chrome que copia els enllaços dels torrent",
+	"version": "1.0",
+	"permissions": [
+		"contextMenus",
+		"clipboardWrite"
+	],
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"background": {
+		"scripts": ["eliteLink.js"]
+	}
+}
